@@ -1,0 +1,17 @@
+{
+    "java.project.sourcePaths": ["src/main/java"],
+    "terminal.integrated.env.windows": {
+        "PYTHONIOENCODING": "cp1251"
+    },
+    "terminal.integrated.profiles.windows": {
+        "PowerShell CP1251": {
+            "source": "PowerShell",
+            "args": [
+                "-NoExit",
+                "-Command",
+                "[Console]::InputEncoding = [System.Text.Encoding]::GetEncoding(1251); [Console]::OutputEncoding = [System.Text.Encoding]::GetEncoding(1251)"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell CP1251"
+}
