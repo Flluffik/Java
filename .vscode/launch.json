@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "bank.Main",
+            "projectName": "bank-system_39b0fec7"
+        },
+        {
+            "type": "java",
+            "name": "Банковская система",
+            "request": "launch",
+            "mainClass": "bank.Main",
+            "projectName": "bank-system",
+            "vmArgs": "-Dfile.encoding=CP1251 -Dstdout.encoding=CP1251 -Dstdin.encoding=CP1251"
+        }
+    ]
+}
